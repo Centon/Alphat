@@ -1,6 +1,10 @@
-Def Main:
-    pass
+import hello
 
-if __name__ == __main__:
-    Main()
+def main():
+    politesse = hello.hello("Nicolas")
+    politesse.SaysHello()
+    
+
+if __name__ == "__main__":
+    main()
 

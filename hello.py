@@ -1,7 +1,7 @@
 class hello:
-    def __init__(nom):
+    def __init__(self,nom):
         self.nom = nom
 
-    def SaysHello:
+    def SaysHello(self):
         print("Hello "+self.nom)
 
